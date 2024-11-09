@@ -1,0 +1,660 @@
+Folder PATH listing
+Volume serial number is 6E9A-ED44
+D:.
+¦   directory.txt
+¦   package-lock.json
+¦   package.json
+¦   README.md
+¦   
++---backend
+¦   ¦   Dockerfile
+¦   ¦   requirements.txt
+¦   ¦   
+¦   +---app
+¦       ¦   main.py
+¦       ¦   
+¦       +---api
+¦       ¦       query.py
+¦       ¦       __init__.py
+¦       ¦       
+¦       +---models
+¦       ¦       query_model.py
+¦       ¦       
+¦       +---services
+¦       ¦   ¦   cot_service.py
+¦       ¦   ¦   embedding_service.py
+¦       ¦   ¦   rag_service.py
+¦       ¦   ¦   test_embedding_service.py
+¦       ¦   ¦   test_rag_service.py
+¦       ¦   ¦   __init__.py
+¦       ¦   ¦   
+¦       ¦   +---__pycache__
+¦       ¦           embedding_service.cpython-311.pyc
+¦       ¦           rag_service.cpython-311.pyc
+¦       ¦           test_rag_service.cpython-311.pyc
+¦       ¦           
+¦       +---__pycache__
+¦               main.cpython-311.pyc
+¦               
++---frontend
+¦   ¦   babel.config.js
+¦   ¦   jsconfig.json
+¦   ¦   package-lock.json
+¦   ¦   package.json
+¦   ¦   README.md
+¦   ¦   vue.config.js
+¦   ¦   
+¦   +---public
+¦   ¦       favicon.ico
+¦   ¦       index.html
+¦   ¦       
+¦   +---src
+¦       ¦   App.vue
+¦       ¦   main.js
+¦       ¦   
+¦       +---assets
+¦       ¦       logo.png
+¦       ¦       
+¦       +---components
+¦       ¦       ChatWindow.vue
+¦       ¦       HelloWorld.vue
+¦       ¦       InputField.vue
+¦       ¦       
+¦       +---services
+¦               socketService.js
+¦               
++---node_modules
+¦   ¦   .package-lock.json
+¦   ¦   
+¦   +---@socket.io
+¦   ¦   +---component-emitter
+¦   ¦       ¦   LICENSE
+¦   ¦       ¦   package.json
+¦   ¦       ¦   Readme.md
+¦   ¦       ¦   
+¦   ¦       +---lib
+¦   ¦           +---cjs
+¦   ¦           ¦       index.d.ts
+¦   ¦           ¦       index.js
+¦   ¦           ¦       package.json
+¦   ¦           ¦       
+¦   ¦           +---esm
+¦   ¦                   index.d.ts
+¦   ¦                   index.js
+¦   ¦                   package.json
+¦   ¦                   
+¦   +---asynckit
+¦   ¦   ¦   bench.js
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   parallel.js
+¦   ¦   ¦   README.md
+¦   ¦   ¦   serial.js
+¦   ¦   ¦   serialOrdered.js
+¦   ¦   ¦   stream.js
+¦   ¦   ¦   
+¦   ¦   +---lib
+¦   ¦           abort.js
+¦   ¦           async.js
+¦   ¦           defer.js
+¦   ¦           iterate.js
+¦   ¦           readable_asynckit.js
+¦   ¦           readable_parallel.js
+¦   ¦           readable_serial.js
+¦   ¦           readable_serial_ordered.js
+¦   ¦           state.js
+¦   ¦           streamify.js
+¦   ¦           terminator.js
+¦   ¦           
+¦   +---axios
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   index.d.cts
+¦   ¦   ¦   index.d.ts
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   MIGRATION_GUIDE.md
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   SECURITY.md
+¦   ¦   ¦   
+¦   ¦   +---dist
+¦   ¦   ¦   ¦   axios.js
+¦   ¦   ¦   ¦   axios.js.map
+¦   ¦   ¦   ¦   axios.min.js
+¦   ¦   ¦   ¦   axios.min.js.map
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---browser
+¦   ¦   ¦   ¦       axios.cjs
+¦   ¦   ¦   ¦       axios.cjs.map
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---esm
+¦   ¦   ¦   ¦       axios.js
+¦   ¦   ¦   ¦       axios.js.map
+¦   ¦   ¦   ¦       axios.min.js
+¦   ¦   ¦   ¦       axios.min.js.map
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---node
+¦   ¦   ¦           axios.cjs
+¦   ¦   ¦           axios.cjs.map
+¦   ¦   ¦           
+¦   ¦   +---lib
+¦   ¦       ¦   axios.js
+¦   ¦       ¦   utils.js
+¦   ¦       ¦   
+¦   ¦       +---adapters
+¦   ¦       ¦       adapters.js
+¦   ¦       ¦       fetch.js
+¦   ¦       ¦       http.js
+¦   ¦       ¦       README.md
+¦   ¦       ¦       xhr.js
+¦   ¦       ¦       
+¦   ¦       +---cancel
+¦   ¦       ¦       CanceledError.js
+¦   ¦       ¦       CancelToken.js
+¦   ¦       ¦       isCancel.js
+¦   ¦       ¦       
+¦   ¦       +---core
+¦   ¦       ¦       Axios.js
+¦   ¦       ¦       AxiosError.js
+¦   ¦       ¦       AxiosHeaders.js
+¦   ¦       ¦       buildFullPath.js
+¦   ¦       ¦       dispatchRequest.js
+¦   ¦       ¦       InterceptorManager.js
+¦   ¦       ¦       mergeConfig.js
+¦   ¦       ¦       README.md
+¦   ¦       ¦       settle.js
+¦   ¦       ¦       transformData.js
+¦   ¦       ¦       
+¦   ¦       +---defaults
+¦   ¦       ¦       index.js
+¦   ¦       ¦       transitional.js
+¦   ¦       ¦       
+¦   ¦       +---env
+¦   ¦       ¦   ¦   data.js
+¦   ¦       ¦   ¦   README.md
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---classes
+¦   ¦       ¦           FormData.js
+¦   ¦       ¦           
+¦   ¦       +---helpers
+¦   ¦       ¦       AxiosTransformStream.js
+¦   ¦       ¦       AxiosURLSearchParams.js
+¦   ¦       ¦       bind.js
+¦   ¦       ¦       buildURL.js
+¦   ¦       ¦       callbackify.js
+¦   ¦       ¦       combineURLs.js
+¦   ¦       ¦       composeSignals.js
+¦   ¦       ¦       cookies.js
+¦   ¦       ¦       deprecatedMethod.js
+¦   ¦       ¦       formDataToJSON.js
+¦   ¦       ¦       formDataToStream.js
+¦   ¦       ¦       fromDataURI.js
+¦   ¦       ¦       HttpStatusCode.js
+¦   ¦       ¦       isAbsoluteURL.js
+¦   ¦       ¦       isAxiosError.js
+¦   ¦       ¦       isURLSameOrigin.js
+¦   ¦       ¦       null.js
+¦   ¦       ¦       parseHeaders.js
+¦   ¦       ¦       parseProtocol.js
+¦   ¦       ¦       progressEventReducer.js
+¦   ¦       ¦       readBlob.js
+¦   ¦       ¦       README.md
+¦   ¦       ¦       resolveConfig.js
+¦   ¦       ¦       speedometer.js
+¦   ¦       ¦       spread.js
+¦   ¦       ¦       throttle.js
+¦   ¦       ¦       toFormData.js
+¦   ¦       ¦       toURLEncodedForm.js
+¦   ¦       ¦       trackStream.js
+¦   ¦       ¦       validator.js
+¦   ¦       ¦       ZlibHeaderTransformStream.js
+¦   ¦       ¦       
+¦   ¦       +---platform
+¦   ¦           ¦   index.js
+¦   ¦           ¦   
+¦   ¦           +---browser
+¦   ¦           ¦   ¦   index.js
+¦   ¦           ¦   ¦   
+¦   ¦           ¦   +---classes
+¦   ¦           ¦           Blob.js
+¦   ¦           ¦           FormData.js
+¦   ¦           ¦           URLSearchParams.js
+¦   ¦           ¦           
+¦   ¦           +---common
+¦   ¦           ¦       utils.js
+¦   ¦           ¦       
+¦   ¦           +---node
+¦   ¦               ¦   index.js
+¦   ¦               ¦   
+¦   ¦               +---classes
+¦   ¦                       FormData.js
+¦   ¦                       URLSearchParams.js
+¦   ¦                       
+¦   +---combined-stream
+¦   ¦   ¦   License
+¦   ¦   ¦   package.json
+¦   ¦   ¦   Readme.md
+¦   ¦   ¦   yarn.lock
+¦   ¦   ¦   
+¦   ¦   +---lib
+¦   ¦           combined_stream.js
+¦   ¦           
+¦   +---debug
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---src
+¦   ¦           browser.js
+¦   ¦           common.js
+¦   ¦           index.js
+¦   ¦           node.js
+¦   ¦           
+¦   +---delayed-stream
+¦   ¦   ¦   .npmignore
+¦   ¦   ¦   License
+¦   ¦   ¦   Makefile
+¦   ¦   ¦   package.json
+¦   ¦   ¦   Readme.md
+¦   ¦   ¦   
+¦   ¦   +---lib
+¦   ¦           delayed_stream.js
+¦   ¦           
+¦   +---engine.io-client
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---build
+¦   ¦   ¦   +---cjs
+¦   ¦   ¦   ¦   ¦   browser-entrypoint.d.ts
+¦   ¦   ¦   ¦   ¦   browser-entrypoint.js
+¦   ¦   ¦   ¦   ¦   globals.d.ts
+¦   ¦   ¦   ¦   ¦   globals.js
+¦   ¦   ¦   ¦   ¦   globals.node.d.ts
+¦   ¦   ¦   ¦   ¦   globals.node.js
+¦   ¦   ¦   ¦   ¦   index.d.ts
+¦   ¦   ¦   ¦   ¦   index.js
+¦   ¦   ¦   ¦   ¦   package.json
+¦   ¦   ¦   ¦   ¦   socket.d.ts
+¦   ¦   ¦   ¦   ¦   socket.js
+¦   ¦   ¦   ¦   ¦   transport.d.ts
+¦   ¦   ¦   ¦   ¦   transport.js
+¦   ¦   ¦   ¦   ¦   util.d.ts
+¦   ¦   ¦   ¦   ¦   util.js
+¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   +---contrib
+¦   ¦   ¦   ¦   ¦       has-cors.d.ts
+¦   ¦   ¦   ¦   ¦       has-cors.js
+¦   ¦   ¦   ¦   ¦       parseqs.d.ts
+¦   ¦   ¦   ¦   ¦       parseqs.js
+¦   ¦   ¦   ¦   ¦       parseuri.d.ts
+¦   ¦   ¦   ¦   ¦       parseuri.js
+¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   +---transports
+¦   ¦   ¦   ¦           index.d.ts
+¦   ¦   ¦   ¦           index.js
+¦   ¦   ¦   ¦           polling-fetch.d.ts
+¦   ¦   ¦   ¦           polling-fetch.js
+¦   ¦   ¦   ¦           polling-xhr.d.ts
+¦   ¦   ¦   ¦           polling-xhr.js
+¦   ¦   ¦   ¦           polling-xhr.node.d.ts
+¦   ¦   ¦   ¦           polling-xhr.node.js
+¦   ¦   ¦   ¦           polling.d.ts
+¦   ¦   ¦   ¦           polling.js
+¦   ¦   ¦   ¦           websocket.d.ts
+¦   ¦   ¦   ¦           websocket.js
+¦   ¦   ¦   ¦           websocket.node.d.ts
+¦   ¦   ¦   ¦           websocket.node.js
+¦   ¦   ¦   ¦           webtransport.d.ts
+¦   ¦   ¦   ¦           webtransport.js
+¦   ¦   ¦   ¦           
+¦   ¦   ¦   +---esm
+¦   ¦   ¦   ¦   ¦   browser-entrypoint.d.ts
+¦   ¦   ¦   ¦   ¦   browser-entrypoint.js
+¦   ¦   ¦   ¦   ¦   globals.d.ts
+¦   ¦   ¦   ¦   ¦   globals.js
+¦   ¦   ¦   ¦   ¦   globals.node.d.ts
+¦   ¦   ¦   ¦   ¦   globals.node.js
+¦   ¦   ¦   ¦   ¦   index.d.ts
+¦   ¦   ¦   ¦   ¦   index.js
+¦   ¦   ¦   ¦   ¦   package.json
+¦   ¦   ¦   ¦   ¦   socket.d.ts
+¦   ¦   ¦   ¦   ¦   socket.js
+¦   ¦   ¦   ¦   ¦   transport.d.ts
+¦   ¦   ¦   ¦   ¦   transport.js
+¦   ¦   ¦   ¦   ¦   util.d.ts
+¦   ¦   ¦   ¦   ¦   util.js
+¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   +---contrib
+¦   ¦   ¦   ¦   ¦       has-cors.d.ts
+¦   ¦   ¦   ¦   ¦       has-cors.js
+¦   ¦   ¦   ¦   ¦       parseqs.d.ts
+¦   ¦   ¦   ¦   ¦       parseqs.js
+¦   ¦   ¦   ¦   ¦       parseuri.d.ts
+¦   ¦   ¦   ¦   ¦       parseuri.js
+¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   +---transports
+¦   ¦   ¦   ¦           index.d.ts
+¦   ¦   ¦   ¦           index.js
+¦   ¦   ¦   ¦           polling-fetch.d.ts
+¦   ¦   ¦   ¦           polling-fetch.js
+¦   ¦   ¦   ¦           polling-xhr.d.ts
+¦   ¦   ¦   ¦           polling-xhr.js
+¦   ¦   ¦   ¦           polling-xhr.node.d.ts
+¦   ¦   ¦   ¦           polling-xhr.node.js
+¦   ¦   ¦   ¦           polling.d.ts
+¦   ¦   ¦   ¦           polling.js
+¦   ¦   ¦   ¦           websocket.d.ts
+¦   ¦   ¦   ¦           websocket.js
+¦   ¦   ¦   ¦           websocket.node.d.ts
+¦   ¦   ¦   ¦           websocket.node.js
+¦   ¦   ¦   ¦           webtransport.d.ts
+¦   ¦   ¦   ¦           webtransport.js
+¦   ¦   ¦   ¦           
+¦   ¦   ¦   +---esm-debug
+¦   ¦   ¦       ¦   browser-entrypoint.d.ts
+¦   ¦   ¦       ¦   browser-entrypoint.js
+¦   ¦   ¦       ¦   globals.d.ts
+¦   ¦   ¦       ¦   globals.js
+¦   ¦   ¦       ¦   globals.node.d.ts
+¦   ¦   ¦       ¦   globals.node.js
+¦   ¦   ¦       ¦   index.d.ts
+¦   ¦   ¦       ¦   index.js
+¦   ¦   ¦       ¦   package.json
+¦   ¦   ¦       ¦   socket.d.ts
+¦   ¦   ¦       ¦   socket.js
+¦   ¦   ¦       ¦   transport.d.ts
+¦   ¦   ¦       ¦   transport.js
+¦   ¦   ¦       ¦   util.d.ts
+¦   ¦   ¦       ¦   util.js
+¦   ¦   ¦       ¦   
+¦   ¦   ¦       +---contrib
+¦   ¦   ¦       ¦       has-cors.d.ts
+¦   ¦   ¦       ¦       has-cors.js
+¦   ¦   ¦       ¦       parseqs.d.ts
+¦   ¦   ¦       ¦       parseqs.js
+¦   ¦   ¦       ¦       parseuri.d.ts
+¦   ¦   ¦       ¦       parseuri.js
+¦   ¦   ¦       ¦       
+¦   ¦   ¦       +---transports
+¦   ¦   ¦               index.d.ts
+¦   ¦   ¦               index.js
+¦   ¦   ¦               polling-fetch.d.ts
+¦   ¦   ¦               polling-fetch.js
+¦   ¦   ¦               polling-xhr.d.ts
+¦   ¦   ¦               polling-xhr.js
+¦   ¦   ¦               polling-xhr.node.d.ts
+¦   ¦   ¦               polling-xhr.node.js
+¦   ¦   ¦               polling.d.ts
+¦   ¦   ¦               polling.js
+¦   ¦   ¦               websocket.d.ts
+¦   ¦   ¦               websocket.js
+¦   ¦   ¦               websocket.node.d.ts
+¦   ¦   ¦               websocket.node.js
+¦   ¦   ¦               webtransport.d.ts
+¦   ¦   ¦               webtransport.js
+¦   ¦   ¦               
+¦   ¦   +---dist
+¦   ¦           engine.io.esm.min.js
+¦   ¦           engine.io.esm.min.js.map
+¦   ¦           engine.io.js
+¦   ¦           engine.io.js.map
+¦   ¦           engine.io.min.js
+¦   ¦           engine.io.min.js.map
+¦   ¦           
+¦   +---engine.io-parser
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   Readme.md
+¦   ¦   ¦   
+¦   ¦   +---build
+¦   ¦       +---cjs
+¦   ¦       ¦   ¦   commons.d.ts
+¦   ¦       ¦   ¦   commons.js
+¦   ¦       ¦   ¦   decodePacket.browser.d.ts
+¦   ¦       ¦   ¦   decodePacket.browser.js
+¦   ¦       ¦   ¦   decodePacket.d.ts
+¦   ¦       ¦   ¦   decodePacket.js
+¦   ¦       ¦   ¦   encodePacket.browser.d.ts
+¦   ¦       ¦   ¦   encodePacket.browser.js
+¦   ¦       ¦   ¦   encodePacket.d.ts
+¦   ¦       ¦   ¦   encodePacket.js
+¦   ¦       ¦   ¦   index.d.ts
+¦   ¦       ¦   ¦   index.js
+¦   ¦       ¦   ¦   package.json
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---contrib
+¦   ¦       ¦           base64-arraybuffer.d.ts
+¦   ¦       ¦           base64-arraybuffer.js
+¦   ¦       ¦           
+¦   ¦       +---esm
+¦   ¦           ¦   commons.d.ts
+¦   ¦           ¦   commons.js
+¦   ¦           ¦   decodePacket.browser.d.ts
+¦   ¦           ¦   decodePacket.browser.js
+¦   ¦           ¦   decodePacket.d.ts
+¦   ¦           ¦   decodePacket.js
+¦   ¦           ¦   encodePacket.browser.d.ts
+¦   ¦           ¦   encodePacket.browser.js
+¦   ¦           ¦   encodePacket.d.ts
+¦   ¦           ¦   encodePacket.js
+¦   ¦           ¦   index.d.ts
+¦   ¦           ¦   index.js
+¦   ¦           ¦   package.json
+¦   ¦           ¦   
+¦   ¦           +---contrib
+¦   ¦                   base64-arraybuffer.d.ts
+¦   ¦                   base64-arraybuffer.js
+¦   ¦                   
+¦   +---follow-redirects
+¦   ¦       debug.js
+¦   ¦       http.js
+¦   ¦       https.js
+¦   ¦       index.js
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---form-data
+¦   ¦   ¦   index.d.ts
+¦   ¦   ¦   License
+¦   ¦   ¦   package.json
+¦   ¦   ¦   Readme.md
+¦   ¦   ¦   
+¦   ¦   +---lib
+¦   ¦           browser.js
+¦   ¦           form_data.js
+¦   ¦           populate.js
+¦   ¦           
+¦   +---mime-db
+¦   ¦       db.json
+¦   ¦       HISTORY.md
+¦   ¦       index.js
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---mime-types
+¦   ¦       HISTORY.md
+¦   ¦       index.js
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---ms
+¦   ¦       index.js
+¦   ¦       license.md
+¦   ¦       package.json
+¦   ¦       readme.md
+¦   ¦       
+¦   +---proxy-from-env
+¦   ¦       .eslintrc
+¦   ¦       .travis.yml
+¦   ¦       index.js
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       test.js
+¦   ¦       
+¦   +---socket.io-client
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---build
+¦   ¦   ¦   +---cjs
+¦   ¦   ¦   ¦   ¦   browser-entrypoint.d.ts
+¦   ¦   ¦   ¦   ¦   browser-entrypoint.js
+¦   ¦   ¦   ¦   ¦   index.d.ts
+¦   ¦   ¦   ¦   ¦   index.js
+¦   ¦   ¦   ¦   ¦   manager.d.ts
+¦   ¦   ¦   ¦   ¦   manager.js
+¦   ¦   ¦   ¦   ¦   on.d.ts
+¦   ¦   ¦   ¦   ¦   on.js
+¦   ¦   ¦   ¦   ¦   socket.d.ts
+¦   ¦   ¦   ¦   ¦   socket.js
+¦   ¦   ¦   ¦   ¦   url.d.ts
+¦   ¦   ¦   ¦   ¦   url.js
+¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   +---contrib
+¦   ¦   ¦   ¦           backo2.d.ts
+¦   ¦   ¦   ¦           backo2.js
+¦   ¦   ¦   ¦           
+¦   ¦   ¦   +---esm
+¦   ¦   ¦   ¦   ¦   browser-entrypoint.d.ts
+¦   ¦   ¦   ¦   ¦   browser-entrypoint.js
+¦   ¦   ¦   ¦   ¦   index.d.ts
+¦   ¦   ¦   ¦   ¦   index.js
+¦   ¦   ¦   ¦   ¦   manager.d.ts
+¦   ¦   ¦   ¦   ¦   manager.js
+¦   ¦   ¦   ¦   ¦   on.d.ts
+¦   ¦   ¦   ¦   ¦   on.js
+¦   ¦   ¦   ¦   ¦   package.json
+¦   ¦   ¦   ¦   ¦   socket.d.ts
+¦   ¦   ¦   ¦   ¦   socket.js
+¦   ¦   ¦   ¦   ¦   url.d.ts
+¦   ¦   ¦   ¦   ¦   url.js
+¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   +---contrib
+¦   ¦   ¦   ¦           backo2.d.ts
+¦   ¦   ¦   ¦           backo2.js
+¦   ¦   ¦   ¦           
+¦   ¦   ¦   +---esm-debug
+¦   ¦   ¦       ¦   browser-entrypoint.d.ts
+¦   ¦   ¦       ¦   browser-entrypoint.js
+¦   ¦   ¦       ¦   index.d.ts
+¦   ¦   ¦       ¦   index.js
+¦   ¦   ¦       ¦   manager.d.ts
+¦   ¦   ¦       ¦   manager.js
+¦   ¦   ¦       ¦   on.d.ts
+¦   ¦   ¦       ¦   on.js
+¦   ¦   ¦       ¦   package.json
+¦   ¦   ¦       ¦   socket.d.ts
+¦   ¦   ¦       ¦   socket.js
+¦   ¦   ¦       ¦   url.d.ts
+¦   ¦   ¦       ¦   url.js
+¦   ¦   ¦       ¦   
+¦   ¦   ¦       +---contrib
+¦   ¦   ¦               backo2.d.ts
+¦   ¦   ¦               backo2.js
+¦   ¦   ¦               
+¦   ¦   +---dist
+¦   ¦           socket.io.esm.min.js
+¦   ¦           socket.io.esm.min.js.map
+¦   ¦           socket.io.js
+¦   ¦           socket.io.js.map
+¦   ¦           socket.io.min.js
+¦   ¦           socket.io.min.js.map
+¦   ¦           socket.io.msgpack.min.js
+¦   ¦           socket.io.msgpack.min.js.map
+¦   ¦           
+¦   +---socket.io-parser
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   Readme.md
+¦   ¦   ¦   
+¦   ¦   +---build
+¦   ¦       +---cjs
+¦   ¦       ¦       binary.d.ts
+¦   ¦       ¦       binary.js
+¦   ¦       ¦       index.d.ts
+¦   ¦       ¦       index.js
+¦   ¦       ¦       is-binary.d.ts
+¦   ¦       ¦       is-binary.js
+¦   ¦       ¦       package.json
+¦   ¦       ¦       
+¦   ¦       +---esm
+¦   ¦       ¦       binary.d.ts
+¦   ¦       ¦       binary.js
+¦   ¦       ¦       index.d.ts
+¦   ¦       ¦       index.js
+¦   ¦       ¦       is-binary.d.ts
+¦   ¦       ¦       is-binary.js
+¦   ¦       ¦       package.json
+¦   ¦       ¦       
+¦   ¦       +---esm-debug
+¦   ¦               binary.d.ts
+¦   ¦               binary.js
+¦   ¦               index.d.ts
+¦   ¦               index.js
+¦   ¦               is-binary.d.ts
+¦   ¦               is-binary.js
+¦   ¦               package.json
+¦   ¦               
+¦   +---ws
+¦   ¦   ¦   browser.js
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   wrapper.mjs
+¦   ¦   ¦   
+¦   ¦   +---lib
+¦   ¦           buffer-util.js
+¦   ¦           constants.js
+¦   ¦           event-target.js
+¦   ¦           extension.js
+¦   ¦           limiter.js
+¦   ¦           permessage-deflate.js
+¦   ¦           receiver.js
+¦   ¦           sender.js
+¦   ¦           stream.js
+¦   ¦           subprotocol.js
+¦   ¦           validation.js
+¦   ¦           websocket-server.js
+¦   ¦           websocket.js
+¦   ¦           
+¦   +---xmlhttprequest-ssl
+¦       ¦   LICENSE
+¦       ¦   package.json
+¦       ¦   README.md
+¦       ¦   
+¦       +---lib
+¦               XMLHttpRequest.js
+¦               
++---plugin
+    ¦   plugin.php
+    ¦   README.md
+    ¦   
+    +---admin
+    ¦       plugin-options.php
+    ¦       settings-page.php
+    ¦       
+    +---includes
+    ¦   +---api
+    ¦   ¦       api-integration.php
+    ¦   ¦       
+    ¦   +---utils
+    ¦           common-functions.php
+    ¦           
+    +---public
+    ¦   ¦   chatbot-widget.php
+    ¦   ¦   
+    ¦   +---assets
+    ¦           chatbot.css
+    ¦           chatbot.js
+    ¦           
+    +---src
+        +---admin
